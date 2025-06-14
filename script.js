@@ -1,6 +1,9 @@
+// Notif ketika klik beli sekarang
 function beliProduk(namaProduk) {
   alert("Anda memilih untuk membeli: " + namaProduk);
 }
+
+// Update Jam
 function updateJam() {
   const now = new Date();
   const jam = now.getHours().toString().padStart(2, '0');
