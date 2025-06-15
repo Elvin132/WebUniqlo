@@ -129,6 +129,8 @@ nav a:hover {
 
 .produk-card:hover {
   transform: scale(1.05);
+  box-shadow: 0 15px 40px rgba(255, 64, 64, 0.892), 0 6px 15px rgba(236, 64, 255, 0.489) ;
+  transition: 0.3s ease;
 }
 
 .produk-card img {
